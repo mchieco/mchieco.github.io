@@ -3,7 +3,7 @@
 baseURL = "http://mchieco.github.io/"
 languageCode = "en"
 title = "Matt Chieco"
-theme = "devresume"
+theme = "DevResume"
 
 [params]
     author = "Matt Chieco"
