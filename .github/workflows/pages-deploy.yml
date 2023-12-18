@@ -52,7 +52,7 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-          HUGO_GOOGLEANALYTICS: ${{ secrets.GOOGLEANALYTICS_ID }}}
+          HUGO_GOOGLEANALYTICS: ${{ secrets.GOOGLEANALYTICS_ID }}
         run: |
           hugo \
             --gc \
