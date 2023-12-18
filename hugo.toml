@@ -1,0 +1,287 @@
+# Page settings
+
+baseURL = "http://mchieco.github.io/"
+languageCode = "en"
+title = "Matt Chieco"
+theme = "devresume"
+
+[params]
+    author = "Matt Chieco"
+    description = "Resume for Matt Chieco"
+
+
+    primaryColor = "#2382D5"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Matt Chieco"
+        tagline = "Principal Software Engineer"
+        avatar = "avatar.jpg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Charlotte, NC"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:518-925-9270"
+        text = "518-925-9270"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:mattchieco31@gmail.com"
+        text = "mattchieco31@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "//chieco.dev"
+        text = "chieco.dev"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "Java and Groovy"
+        [[params.skills.list.items]]
+        details = "DevOps and CI/CD (Bamboo, Jenkins, GitHub Actions)"
+        [[params.skills.list.items]]
+        details = "AWS (Lambda, API Gateway, S3, ECS, EC2, CloudWatch, CloudFormation, DynamoDB, SQS, SNS)"
+        [[params.skills.list.items]]
+        details = "Typescript/Javascript"
+        [[params.skills.list.items]]
+        details = "PostgreSQL"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Backend development"
+        [[params.skills.list.items]]
+        details = "Agile methodologies"
+        [[params.skills.list.items]]
+        details = "Strong testing principals"
+        [[params.skills.list.items]]
+        details = "Product management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Bachelor of Science in Software Engineering"
+        university = "Quinnipiac University"
+        dates = "2016 - 2020"
+        gpa = "3.95"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Golfing"
+        [[params.interests.list]]
+        name = "Cooking"
+        [[params.interests.list]]
+        name = "Exercising"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I am a passionate software engineer with 4+ years of experience in the industry. I enjoy backend development and have worked on highly complex enterprise systems. I have many years of experience building and deploying AWS infrastructure, mainly using serverless. I pride myself on constantly learning new programming languages, tools, and frameworks in order to push the envelope and deliver the best possible product."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Principal Software Engineer"
+        dates = "June 2023 - Present"
+        company = "Liberty Mutual Insurance"
+        details = "Pioneer the next iteration of CI/CD across the enterprise. Architect and design enterprise use of GitHub Actions. Design a migration solution to simplify the transition from legacy pipelines. Key technologies: Typescript, PostgreSQL, Python, Golang, AWS"
+        [[params.experience.list.items]]
+        details = "Implement a net new implementatoin of JFrog Artifactory to be used as a global artifact repository across the enterprise"
+        [[params.experience.list.items]]
+        details = "Build custom GitHub Actions to drive custom pipeline implementations"
+        [[params.experience.list.items]]
+        details = "Influence the security and compliance strategy for the use GitHub Actions"
+
+        [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "June 2022 - June 2023"
+        company = "Liberty Mutual Insurance"
+        details = "Headed a enterprise wide effort to migrate all 63,000 source code repositories from Bitbucket Server to GitHub Enterprise Cloud. Enabled a self service migration experience so developers could migrate their repositories when it best suited them. Key technologies: Python, API Gateway, Lambda, DynamoDB, ECS, Cloudformation, React, Java"
+        [[params.experience.list.items]]
+        details = "Architected the end to end solution that allowed for self service migrations across the enterprise throughout a 10 week migration period"
+        [[params.experience.list.items]]
+        details = "Developed asynchronous Lambda functions, written in Python, to handle the orchestration of the migration process"
+        [[params.experience.list.items]]
+        details = "Implemented a constainerized orchestration service to migrate repositories of any size consistently through the use of ECS Fargate asynchronous Lambda functions, written in Python, to handle the orchestration of the migration process"
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "June 2021 - June 2022"
+        company = "Liberty Mutual Insurance"
+        details = "Developed solutions to enable the reuse of pipeline specific extensions for all pipeline platforms. Global libraries for Jenkins, and Atlassian plugins for Bamboo. Key technologies: Groovy, Java, Jenkins, Bamboo, AWS"
+        [[params.experience.list.items]]
+        details = "Participated in 24/7 on call support for the Jenkins and Bamboo platforms, which included troubleshooting and resolving critical platform issues"
+
+        [[params.experience.list]]
+        title = "Technology Associate"
+        dates = "June 2020 - June 2021"
+        company = "Liberty Mutual Insurance"
+        details = "Led team on an effort to modernize a 20-year-old legacy application, by writing modern Java Spring Boot microservice REST API’s and optimizing SQL queries, to improve overall application performance. Rewrite front end by leveraging React, to enhance the user experience. Key technologies: Java, Spring Boot, JSP, DB2, Cloud Foundry, React"
+        [[params.experience.list.items]]
+        details = "Coordinated user interviews to gather requirements for current pain points with the legacy system, and to gather requirements for new features"
+
+        [[params.experience.list]]
+        title = "IT Claims Intern"
+        dates = "June 2019 - August 2019"
+        company = "AXA XL"
+        details = "Developed new features for an existing utility application which served as a tool to aggregate nightly job data across multiple data sets. Key technologies: C#, MySQL, XML"
+        [[params.experience.list.items]]
+        details = "Designed and created a data dictionary based on the schema of the claims databases, which was used to help other developers understand the data."
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/mchieco"
+        title = "mchieco"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/matthew-chieco"
+        title = "matthew-chieco"
